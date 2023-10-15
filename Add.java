@@ -8,10 +8,11 @@ class Add
 		System.out.println("Enter the numbers ");
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-		int sum = a + b;
+		int c = sc.nextInt();
+		int sum = a + b + c;
 
 		
-		System.out.println("Sum of " + a + " and " + b + " is " + sum);
+		System.out.println("Sum of " + a + " and " + b +" and " + c + " is " + sum);
 	}
 }
 
